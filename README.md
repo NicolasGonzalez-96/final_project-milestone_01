@@ -64,6 +64,21 @@ Un cliente nos ha encomendado desarollar una aplicación web tipo marketplace. E
 
 ### Contrato de datos de API
 
+Se consideran las siguientes tablas:
+* `usuarios`: Representa a usuarios y vendedores.
+* `productos`: Representa el pool de productos disponible en el marketplace.
+* `publicaciones`: Representa las publicaciones de venta realizadas sobre alguno de los productos disponibles en el marketplace.
+* `transacciones`: Representa las compras realizadas por un cliente.
+
+El siguiente diagrama muestra las relaciones y las columnas de cada tabla:
+![ddbb-erd](./tbl_relationships.svg)
+
+Se tienen las siguientes relaciones:
+* `usuarios`: relación 1:N con tabla `publicaciones`, e.g., un vendedor puede publicar múltiples productos.
+* `usuarios`: relación 1:N con tabla `transacciones`, e.g., un comprador puede comprar múltiples veces.
+* `categorias`: relación 1:N con tabla `productos`, e.g., una categoría puede albergar varios productos.
+* `producto`: relación 1:N con tabla `publicaciones`, e.g., un producto puede estar listado en una o más publicaciones.
+
 ### Autores
 
 * [Julio Carvajal](https://github.com/jcartronics)
