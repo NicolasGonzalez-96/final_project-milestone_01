@@ -59,6 +59,8 @@ Un cliente nos ha encomendado desarollar una aplicación web tipo marketplace. E
 * CORS (Middleware)
 * Dotenv (Para variables de entorno)
 * Jest (Framework de Pruebas)
+* `swagger-ui` (documentación API)
+* `swagger-jsdoc` (documentación API)
 
 ### Modelo Base de Datos
 
