@@ -20,20 +20,20 @@ Un cliente nos ha encomendado desarollar una aplicación web tipo marketplace. E
 * Contrato de datos de la API.
 
 ### Diseño Interfaz
-![Vista 1](Home.png) 
-![Vista 2](Login.png) 
-![Vista 3](Registro.png) 
-![Vista 4](<Mis compras.png>) 
-![Vista 5](Productos.png) 
-![Vista 6](<Detalle Productos.png>) 
-![Vista 7](Carrito.png) 
-![Vista 8](Perfil.png) 
-![Vista 9](Favorito.png) 
-![Vista 10](<Productos publicados.png>) 
-![Vista 11](<Publicación producto.png>)
+![Vista 1](/vistas/Home.png) 
+![Vista 2](/vistas/Login.png) 
+![Vista 3](/vistas/Registro.png) 
+![Vista 4](</vistas/Mis compras.png>) 
+![Vista 5](/vistas/Productos.png) 
+![Vista 6](</vistas/Detalle Productos.png>) 
+![Vista 7](/vistas/Carrito.png) 
+![Vista 8](/vistas/Perfil.png) 
+![Vista 9](/vistas/Favorito.png) 
+![Vista 10](</vistas/Productos publicados.png>) 
+![Vista 11](</vistas/Publicación producto.png>)
 
 ### Navegación entre Vistas
-![Navegación](<Navegación entre vistas-1.png>)
+![Navegación](</vistas/Navegación entre vistas-1.png>)
 ### Dependencias
 
 ### Modelo Base de Datos
