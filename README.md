@@ -64,8 +64,6 @@ Un cliente nos ha encomendado desarollar una aplicación web tipo marketplace. E
 
 ### Modelo Base de Datos
 
-### Contrato de datos de API
-
 Se consideran las siguientes tablas:
 * `usuarios`: Representa a usuarios y vendedores.
 * `productos`: Representa el pool de productos disponible en el marketplace.
@@ -80,6 +78,8 @@ Se tienen las siguientes relaciones:
 * `usuarios`: relación 1:N con tabla `transacciones`, e.g., un comprador puede comprar múltiples veces.
 * `categorias`: relación 1:N con tabla `productos`, e.g., una categoría puede albergar varios productos.
 * `producto`: relación 1:N con tabla `publicaciones`, e.g., un producto puede estar listado en una o más publicaciones.
+
+### Contrato de datos de API
 
 ### Autores
 
