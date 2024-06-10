@@ -5,6 +5,7 @@
 ### Contexto
 
 Un cliente nos ha encomendado desarollar una aplicación web tipo marketplace. Esta aplicación está dividida en cinco hitos:
+
 1. Diseño y Prototipo
 1. Desarrollo Frontend
 1. Desarrollo Backend
@@ -24,6 +25,26 @@ Un cliente nos ha encomendado desarollar una aplicación web tipo marketplace. E
 ### Navegación entre Vistas
 
 ### Dependencias
+
+#### Frontend
+
+* React (Framework de JavaScript)
+* Vite (Herramienta creación de proyectos)
+* Ant Design 5 (Framework CSS)
+* Bootstrap (Framework CSS)
+* React Router (Navegación en React)
+* Axios (Peticiones HTTP)
+* Formik (Formularios en React)
+
+#### Backend
+
+* Node.js (Entorno de ejecución de Javascript)
+* Express.js (Framework JS)
+* PostgreSQL (Base de datos)
+* JWT (Autentificación)
+* CORS (Middleware)
+* Dotenv (Para variables de entorno)
+* Jest (Framework de Pruebas)
 
 ### Modelo Base de Datos
 
