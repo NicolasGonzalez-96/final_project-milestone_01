@@ -81,6 +81,23 @@ Se tienen las siguientes relaciones:
 
 ### Contrato de datos de API
 
+* `/usuario`
+  * `GET`: devuelve información del usuario. Require estar previamente autenticado.
+  * `POST`: crea un nuevo usuario. No requiere autenticación.
+  * `PUT`: actualiza los datos de un usuario. Requiere autenticación.
+* `/productos`
+  * `GET`: devuelve una lista paginada de los productos disponibles.
+  * `POST`: crea un nuevo producto. Requiere autenticación.
+* `/productos/{id}`
+  * `GET`: devuelve información de un producto. No require autenticación.
+  * `PUT`: actualiza un producto. Require autenticación.
+* `/publicaciones`
+  * `GET`: devuelve una lista paginada de las publicaciones disponibles
+  * `POST`: crea una nueva publicación. Requiere autenticación.
+* `/publicaciones/{id}`
+  * `GET`: devuelve información de una publicación. No require autenticación.
+  * `PUT`: actualiza una publicación. Requiere autenticación.
+
 ### Autores
 
 * [Julio Carvajal](https://github.com/jcartronics)
