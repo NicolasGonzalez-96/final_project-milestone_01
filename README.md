@@ -33,7 +33,7 @@ Un cliente nos ha encomendado desarollar una aplicación web tipo marketplace. E
 ![Vista 11](</vistas/Publicación producto.png>)
 
 ### Navegación entre Vistas
-![Navegación](</vistas/Navegación entre vistas-1.png>)
+![Navegación](</vistas/Navegación entre vistas.png>)
 ### Dependencias
 
 ### Modelo Base de Datos
